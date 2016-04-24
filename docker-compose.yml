@@ -2,7 +2,6 @@ server:
   build: .
   ports:
     - 8384:8384
-  hostname: killarny.net
   volumes:
     - /var/syncthing/config/:/root/.config/syncthing/
     - /var/syncthing/shares/:/root/Sync/
